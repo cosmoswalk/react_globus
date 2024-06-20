@@ -1,0 +1,33 @@
+
+
+@media only screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (min--moz-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-o-min-device-pixel-ratio: 2/1) {
+
+
+    .GlobeClass_mob {
+      display: block;
+   
+    } 
+
+    .moon-globe-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+
+/* 
+=========== NONE ====== */
+
+
+
+.GlobeClass {
+    display: none;
+  }
+  
+  
+
+}

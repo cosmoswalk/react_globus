@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (min--moz-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-o-min-device-pixel-ratio: 2/1) {
+
+
+
+    .tbl-header,
+    .tbl-content,
+    th,
+    td {
+      font-size: 14px;
+    }
+  
+    th,
+    td {
+      padding: 10px;
+    }
+  
+    .full-description-content {
+      max-width: 100%;
+      max-height: 300px;
+    }
+
+
+
+
+
+
+
+
+/* ======== NONE ================ */
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+ 
+  @media (max-width: 480px) {
+    .tbl-header,
+    .tbl-content,
+    th,
+    td {
+      font-size: 12px;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+    }
+  
+    .full-description-content {
+      max-width: 100%;
+      max-height: 200px;
+    }
+  }

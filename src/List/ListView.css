@@ -1,0 +1,125 @@
+table{
+    width:100%;
+    table-layout: fixed;
+    overflow-y:auto;
+    border-radius: 10px;
+  }
+  .tbl-header{
+    background-color: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(10px); 
+   }
+  .tbl-content{
+    height:500px;
+    overflow-x:auto;
+    overflow-y:auto;
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+    border: 1px solid rgba(138, 128, 128, 0.571);
+   
+  }
+  .tr:hover {
+    background-color: #1a191989;  
+}
+  .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    backdrop-filter: blur(5px);
+}
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: solid 2px rgba(255,255,255,0.1);
+  }
+  
+  
+.logo_list {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px; 
+  border-radius: 90%;
+  border: 1px solid whitesmoke;
+}
+
+.show-more {
+  color: rgba(195, 193, 174, 0.804);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.full-description-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.full-description-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #21211f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+  section{
+  margin-top: 130px;
+  }
+  
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }

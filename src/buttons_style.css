@@ -1,0 +1,229 @@
+
+.buttons-container {
+  position: fixed; /* This positions the buttons relative to .moon-globe-container */
+  top: 0; /* Align it to the top of the .moon-globe-container */
+  left: 0; /* Align it to the left of the .moon-globe-container */
+  width: 100%; /* Take up full width of the parent container */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: make the background a bit transparent */
+  z-index: 100; /* Optional: Ensure that the buttons are above other elements */
+  display: flex; /* Optional: Align the child elements of buttons-container horizontally */
+  justify-content: space-between; /* Optional: Distribute space between child elements */
+}
+
+.filter-buttons, .Home_button, .view-buttons {
+  padding: 10px; /* Add padding around button groups */
+}
+
+.button_filter, .home-button, .view {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+
+}
+
+  
+  .home-button {
+    
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    padding: calc(var(--index) * 0.4) calc(var(--index) * 0.8);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(var(--index) * 0.8);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+   
+  }
+  
+  
+
+  
+.filter-buttons{
+
+  background-color: rgba(255, 255, 0, 0.019);
+  justify-content: right;
+  }
+  
+  .button_filter {
+  
+      border: 1px solid white;
+      border-radius: 10%;
+      color: white;
+      padding: calc(var(--index) * 0.4) calc(var(--index) * 0.8);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: calc(var(--index) * 0.8);
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    .button-active {
+
+      box-shadow: 1px 1px 13px 2px #d6b70a92; 
+  }
+  
+    .view {
+        margin-right: 10px;
+        border: 1px solid white;
+        border-radius: 10%;
+        color: white;
+        padding: calc(var(--index) * 0.4) calc(var(--index) * 0.8);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: calc(var(--index) * 0.8);
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+
+
+@media screen and (max-width: 768px) {
+  .button_filter {
+   
+    margin-top: 8px;
+      border: 1px solid white;
+      border-radius: 10%;
+      color: white;
+      width: 50px;
+      height: 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: transparent;
+      transform: translate(50%, 20%);
+    }
+    .filter-buttons, .Home_button, .view-buttons {
+      padding: 0px; /* Add padding around button groups */
+    }
+    
+    .view {
+      top: 0;
+      right: 0;
+      transform: translate(950%, -190%);
+   
+    padding: 0;
+      border: 1px solid white;
+      border-radius: 10%;
+      color: white;
+    width: 53px;
+    height: 35px;
+    justify-content: end;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: transparent;
+      
+  }
+  
+  .home-button {
+  
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    top: 0;
+    left: 50%;
+    transform: translate(700%, -66%);
+
+  height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+   
+  }
+  
+  .home_logo{
+    width: 20px;
+    height: 20px;
+  }
+  .view_logo{
+    width: 15px;
+    height: 15px;
+  }}
+
+@media screen and (max-width: 480px) {
+  .button_filter {
+  margin-top: 8px;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .filter-buttons, .Home_button, .view-buttons {
+    padding: 0px; /* Add padding around button groups */
+  }
+  
+  .view {
+    top: 0;
+    right: 0;
+    transform: translate(830%, -175%);
+  margin: 0;
+  padding: 0;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+  width: 33px;
+  height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+.home-button {
+
+  border: 1px solid white;
+  border-radius: 10%;
+  color: white;
+  top: 0;
+  left: 50%;
+  transform: translate(510%, -76%);
+height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: transparent;
+ 
+}
+
+.home_logo{
+  width: 20px;
+  height: 20px;
+}
+.view_logo{
+  width: 15px;
+  height: 15px;
+}
+
+}

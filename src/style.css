@@ -1,0 +1,92 @@
+:root {
+	--index: calc(1vw + 1vh);
+	--color-header: #f4efec;
+	--color-text: #cdc6c3;
+	--gallery-gap: calc(var(--index) * 7.5);
+	--button-height: calc(1vw + 1vh);
+}
+.moon-globe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .GlobeClass{
+
+} */
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.info_price {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.116);
+  backdrop-filter: blur(5px);
+  border: 1px dotted rgb(236, 236, 230);
+  color: white;
+  padding: 5px;
+  width: 180px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none; 
+}
+
+.info_price.visible {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+
+.data {
+  width: 170px;
+}
+
+.logo_bar
+{
+  border:1px solid rgb(236, 236, 230);
+  border-radius: 90%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .buttons-container {
+      flex-direction: column;
+  }
+
+  .filter-buttons, .view-buttons {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button_filter, .view {
+      width: 100%;
+  }
+}
+
+
+
+
+
+
+/* =============== NONE ==============  */
+
+
+.GlobeClass_mob {
+  display: none;
+}
+
+
+
